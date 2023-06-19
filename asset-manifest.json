@@ -1,12 +1,28 @@
 {
   "files": {
-    "main.js": "/static/js/main.6efd82b0.js",
+    "main.css": "/static/css/main.0d8a3d52.css",
+    "main.js": "/static/js/main.acb19489.js",
     "static/js/787.34837f67.chunk.js": "/static/js/787.34837f67.chunk.js",
+    "static/media/Die_Rotation.gif": "/static/media/Die_Rotation.3d89e7e5d4443240e4a9.gif",
+    "static/media/Seitneigung.gif": "/static/media/Seitneigung.afc3e92351bb18d910cf.gif",
+    "static/media/Schulterheber.gif": "/static/media/Schulterheber.527bdfc510a9b2b92303.gif",
+    "static/media/Schulter_Kuss.gif": "/static/media/Schulter_Kuss.63c99d3fac96a8a26575.gif",
+    "static/media/Halbmond.gif": "/static/media/Halbmond.c270d2d8c44723a8e208.gif",
+    "static/media/U-Halte.gif": "/static/media/U-Halte.9c3a4b56c2c83ad3ddc5.gif",
+    "static/media/Schräge_Brustmuskeln.gif": "/static/media/Schräge_Brustmuskeln.bae17d04f39ee7b896e4.gif",
+    "static/media/Nacken_Relax.gif": "/static/media/Nacken_Relax.330bb62d3db911739b78.gif",
+    "static/media/Dehnung_des_Rücken.gif": "/static/media/Dehnung_des_Rücken.d3f7d35b0f8380410b48.gif",
+    "static/media/Abtauchen.gif": "/static/media/Abtauchen.0f9f312c360a6925c3d2.gif",
+    "static/media/Entspannung_Lendenwirbelsäule_.gif": "/static/media/Entspannung_Lendenwirbelsäule_.0a6f705f9cceb0481435.gif",
+    "static/media/hey.gif": "/static/media/hey.3ac3e594a8fd053dbe15.gif",
+    "static/media/spine.svg": "/static/media/spine.45a92f2ecd9d5146758b6edff6711b7b.svg",
     "index.html": "/index.html",
-    "main.6efd82b0.js.map": "/static/js/main.6efd82b0.js.map",
+    "main.0d8a3d52.css.map": "/static/css/main.0d8a3d52.css.map",
+    "main.acb19489.js.map": "/static/js/main.acb19489.js.map",
     "787.34837f67.chunk.js.map": "/static/js/787.34837f67.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.6efd82b0.js"
+    "static/css/main.0d8a3d52.css",
+    "static/js/main.acb19489.js"
   ]
 }
