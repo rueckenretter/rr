@@ -1,0 +1,178 @@
+.spine {
+    width: 20vw;
+    fill: #939993;
+
+    &.page2 {
+        >g {
+            >g {
+                &:nth-last-child(2),
+                &:nth-last-child(1) {
+                    fill: #4f7b4f;
+                }
+            }
+        }
+    }
+    &.page3 {
+        >g {
+            >g {
+                &:nth-last-child(5),
+                &:nth-last-child(3),
+                &:nth-last-child(2),
+                &:nth-last-child(1) {
+                    fill: #4f7b4f;
+                }
+            }
+        }
+    }
+    &.page4 {
+        >g {
+            >g {
+                &:nth-last-child(6),
+                &:nth-last-child(5),
+                &:nth-last-child(4),
+                &:nth-last-child(3),
+                &:nth-last-child(2),
+                &:nth-last-child(1) {
+                    fill: #4f7b4f;
+                }
+            }
+        }
+    }
+}
+
+.questions {
+    .MuiFormControlLabel-root {
+        min-width: 32%;
+    }
+
+    li + li {
+        margin-top: 5vh;
+    }
+
+    .nextButton {
+        margin-top: 2vh;
+        float: right;
+    }
+
+    &.page1 {
+        width: 35vw;
+    }
+
+    &.page2 {
+        padding-right: 90px;
+    }
+}
+
+.questionsLast {
+    &.page3 {
+        width: 45vw;
+    }
+
+    .MuiFormControlLabel-root {
+        min-width: 32%;
+    }
+
+    .nextButton {
+        margin-top: 2vh;
+        float: right;
+    }
+
+    .form {
+        display: flex;
+    }
+
+    .MuiFormLabel-root {
+        min-width: 25vw;
+        padding-left: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .formLabel {
+        list-style-type: none;
+
+        .MuiButton-text {
+            border: none !important;
+
+            &:hover {
+                background-color: transparent !important;
+            }
+        }
+    }
+
+    .checked {
+        background-color: rgb(144 249 186 / 21%);
+    }
+
+    .MuiButton-outlined {
+        &:hover {
+            background-color: rgb(144 249 186 / 21%);
+        }
+    }
+
+    li {
+        margin-top: 3px;
+
+        &:nth-child(2n) {
+            .MuiFormLabel-root {
+                background-color: rgb(128 128 128 / 20%);
+            }
+        }
+    }
+}
+
+.backHome {
+    margin-left: 10px !important;
+}
+
+.MuiFormControl-root {
+    background-color: #4b4b4b;
+    padding: 20px !important;
+    border-radius: 20px;
+}
+
+.MuiButton-contained {
+    background-color: #20977e !important;
+
+    &:hover {
+        background-color: #20977e !important;
+    }
+}
+
+.MuiSlider-root {
+    .MuiSlider-thumb,
+    .MuiSlider-track {
+        background-color: #20977e;
+        color: #20977e;
+    }
+}
+
+.MuiRadio-colorPrimary.Mui-checked {
+    svg {
+        fill: #20977e !important;
+    }
+}
+
+label.Mui-focused {
+    color: #fff !important;
+}
+
+.MuiButtonGroup-groupedTextPrimary {
+    color: #20977e !important;
+}
+
+.MuiButton-outlined {
+    border-color: #20977e !important;
+    color: #20977e !important;
+}
+
+.exerciseIntervalMins {
+    display: inline;
+    font-weight: 700;
+    color: #20977e;
+}
+
+.exerciseIntervalMinsLabel {
+    display: inline-block;
+    width: 130px;
+}

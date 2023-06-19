@@ -1,0 +1,63 @@
+.lastTab {
+  margin-right: auto !important;
+}
+
+.linkFragebogen {
+  background-color: rgba(114, 114, 114, 0.5607843137);
+  color: #92ff92;
+  font-weight: 700;
+}
+
+.logo {
+  position: absolute;
+  top: 5vh;
+  left: 7vh;
+}
+
+#HTSP_Extension_Identifier-1983dd3617d04cc7b69ee9ea7af7fe90 {
+  display: none;
+}
+
+.footer {
+  background-color: #212121;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer .impressum {
+  margin-right: 20px;
+}
+.footer .impressum a {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.config {
+  min-height: 92vh;
+}
+
+.MuiTabs-indicator {
+  background-color: #4f7b4f !important;
+}
+
+.MuiTab-root.Mui-selected {
+  color: #4f7b4f !important;
+}
+
+iframe {
+  border: 0;
+}
+
+#root .toggleThemeButton {
+  position: absolute !important;
+  right: 1vw;
+  top: 6vh;
+}
+
+.tabs {
+  background-color: #212121;
+}
+.tabs.light {
+  background-color: #fff;
+}/*# sourceMappingURL=Rueckenuebungen.css.map */

@@ -1,0 +1,122 @@
+.spine {
+  width: 20vw;
+  fill: #939993;
+}
+.spine.page2 > g > g:nth-last-child(2), .spine.page2 > g > g:nth-last-child(1) {
+  fill: #4f7b4f;
+}
+.spine.page3 > g > g:nth-last-child(5), .spine.page3 > g > g:nth-last-child(3), .spine.page3 > g > g:nth-last-child(2), .spine.page3 > g > g:nth-last-child(1) {
+  fill: #4f7b4f;
+}
+.spine.page4 > g > g:nth-last-child(6), .spine.page4 > g > g:nth-last-child(5), .spine.page4 > g > g:nth-last-child(4), .spine.page4 > g > g:nth-last-child(3), .spine.page4 > g > g:nth-last-child(2), .spine.page4 > g > g:nth-last-child(1) {
+  fill: #4f7b4f;
+}
+
+.questions .MuiFormControlLabel-root {
+  min-width: 32%;
+}
+.questions li + li {
+  margin-top: 5vh;
+}
+.questions .nextButton {
+  margin-top: 2vh;
+  float: right;
+}
+.questions.page1 {
+  width: 35vw;
+}
+.questions.page2 {
+  padding-right: 90px;
+}
+
+.questionsLast.page3 {
+  width: 45vw;
+}
+.questionsLast .MuiFormControlLabel-root {
+  min-width: 32%;
+}
+.questionsLast .nextButton {
+  margin-top: 2vh;
+  float: right;
+}
+.questionsLast .form {
+  display: flex;
+}
+.questionsLast .MuiFormLabel-root {
+  min-width: 25vw;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+}
+.questionsLast .formLabel {
+  list-style-type: none;
+}
+.questionsLast .formLabel .MuiButton-text {
+  border: none !important;
+}
+.questionsLast .formLabel .MuiButton-text:hover {
+  background-color: transparent !important;
+}
+.questionsLast .checked {
+  background-color: rgba(144, 249, 186, 0.21);
+}
+.questionsLast .MuiButton-outlined:hover {
+  background-color: rgba(144, 249, 186, 0.21);
+}
+.questionsLast li {
+  margin-top: 3px;
+}
+.questionsLast li:nth-child(2n) .MuiFormLabel-root {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.backHome {
+  margin-left: 10px !important;
+}
+
+.MuiFormControl-root {
+  background-color: #4b4b4b;
+  padding: 20px !important;
+  border-radius: 20px;
+}
+
+.MuiButton-contained {
+  background-color: #20977e !important;
+}
+.MuiButton-contained:hover {
+  background-color: #20977e !important;
+}
+
+.MuiSlider-root .MuiSlider-thumb,
+.MuiSlider-root .MuiSlider-track {
+  background-color: #20977e;
+  color: #20977e;
+}
+
+.MuiRadio-colorPrimary.Mui-checked svg {
+  fill: #20977e !important;
+}
+
+label.Mui-focused {
+  color: #fff !important;
+}
+
+.MuiButtonGroup-groupedTextPrimary {
+  color: #20977e !important;
+}
+
+.MuiButton-outlined {
+  border-color: #20977e !important;
+  color: #20977e !important;
+}
+
+.exerciseIntervalMins {
+  display: inline;
+  font-weight: 700;
+  color: #20977e;
+}
+
+.exerciseIntervalMinsLabel {
+  display: inline-block;
+  width: 130px;
+}/*# sourceMappingURL=Questionnaire.css.map */

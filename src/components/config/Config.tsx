@@ -9,12 +9,14 @@ import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormHelperText from '@mui/material/FormHelperText';
 import Checkbox from '@mui/material/Checkbox';
+import Slider from '@mui/material/Slider';
 
 export default class Config extends React.Component<IConfigProps, IConfigState> {
     constructor(props: IConfigProps) {
         super(props);
 
         this.state = {
+            exerciseIntervalMins: window.localStorage.getItem('exerciseIntervalMins') ? +(window.localStorage.getItem('exerciseIntervalMins') as string) : 60
         };
     }
 
@@ -24,27 +26,29 @@ export default class Config extends React.Component<IConfigProps, IConfigState> 
                 <Box sx={{ display: 'flex' }}>
                     <FormControl sx={{ m: 3 }} component="fieldset" variant="standard">
                         <FormLabel component="legend">Einstellungen</FormLabel>
-                        <FormGroup>
-                            <FormControlLabel
-                                control={
-                                    <Checkbox checked={true} onChange={() => {}} name="config1" />
-                                }
-                                label="config1"
-                            />
-                            <FormControlLabel
-                                control={
-                                    <Checkbox checked={true} onChange={() => {}} name="config2" />
-                                }
-                                label="config2"
-                            />
-                            <FormControlLabel
-                                control={
-                                    <Checkbox checked={false} onChange={() => {}} name="config3" />
-                                }
-                                label="config3"
-                            />
-                        </FormGroup>
-                        <FormHelperText>Hast du einen Rücken?</FormHelperText>
+                        <FormLabel>Wie oft möchtest du an deine Übungen erinnert werden?</FormLabel>
+                        <Slider
+                            defaultValue={60}
+                            valueLabelDisplay="auto"
+                            step={10}
+                            min={30}
+                            max={180}
+                            value={this.state.exerciseIntervalMins}
+                            onChange={(e, v) => {
+                                this.setState({ exerciseIntervalMins: v as number });
+                                window.localStorage.setItem('exerciseIntervalMins', v.toString());
+
+                                document.dispatchEvent(new CustomEvent('saveUserPreference', 
+                                {
+                                    detail: {
+                                        interval: v
+                                    }
+                                }));
+                            }}
+                            marks
+                        />
+                        <FormLabel className='exerciseIntervalMinsLabel'>Alle <div className='exerciseIntervalMins'>{this.state.exerciseIntervalMins}</div> Minuten.</FormLabel>
+                        <FormHelperText>Angabe in Minuten.</FormHelperText>
                     </FormControl>
                 </Box>
             </>
