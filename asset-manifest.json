@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0d8a3d52.css",
-    "main.js": "/static/js/main.0d5136c8.js",
+    "main.js": "/static/js/main.3e916045.js",
     "static/js/787.34837f67.chunk.js": "/static/js/787.34837f67.chunk.js",
     "static/media/Die_Rotation.gif": "/static/media/Die_Rotation.3d89e7e5d4443240e4a9.gif",
     "static/media/Seitneigung.gif": "/static/media/Seitneigung.afc3e92351bb18d910cf.gif",
@@ -18,11 +18,11 @@
     "static/media/spine.svg": "/static/media/spine.45a92f2ecd9d5146758b6edff6711b7b.svg",
     "index.html": "/index.html",
     "main.0d8a3d52.css.map": "/static/css/main.0d8a3d52.css.map",
-    "main.0d5136c8.js.map": "/static/js/main.0d5136c8.js.map",
+    "main.3e916045.js.map": "/static/js/main.3e916045.js.map",
     "787.34837f67.chunk.js.map": "/static/js/787.34837f67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d8a3d52.css",
-    "static/js/main.0d5136c8.js"
+    "static/js/main.3e916045.js"
   ]
 }
